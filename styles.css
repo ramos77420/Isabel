@@ -3,8 +3,8 @@ header {
       0deg,
       rgba(44, 44, 44, 0.6),
       rgba(44, 44, 44, 0.6)
-    ),
-    url("images/header.jpg");
+    ), url("images/header.jpg");
+  
   background-size: cover;
   height: 550px;
   display: flex;
@@ -14,14 +14,17 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 h1 {
   font-size: 56px;
   color: white;
 }
+
 body {
   font-family: Montserrat;
   margin: 0;
 }
+
 .about {
   display: flex;
   flex-direction: column;
@@ -34,20 +37,24 @@ body {
   padding-top: 0;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
+
 .about img {
   border-radius: 50%;
   width: 150px;
   margin-top: -30px;
 }
+
 h2 {
   font-size: 24px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
+
 a {
-  color: #129daf;
+  color: #134c53;
   text-decoration: none;
 }
+
 /* SKILLS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
